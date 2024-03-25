@@ -1,0 +1,50 @@
+.promo {
+    background: url(./img/promo_bg.jpg) no-repeat center / cover;
+    min-height: 640px;
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+
+    h1 {
+        font-family: Merienda;
+        font-size: 40px;
+        line-height: 57.76px;
+        margin: 111px 0 20px;
+    }
+
+    h2 {
+        font-family: Merienda;
+        font-size: 24px;
+        line-height: 50px; 
+        max-width: 530px;
+        margin: 35px auto 18px;
+    }
+}
+
+.btn {
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 0 42px;
+    background: none;
+
+    font-family: Merienda;
+    font-size: 14px;
+    line-height: 20.22px;
+    text-align: left;
+    color: white;
+    transition: 0.6s;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+
+    &:hover {
+        background-color: white;
+        color: black;
+        scale: 1.05;
+    }
+
+    &:active {
+        box-shadow: none;
+        scale: 0.95;
+    }
+}

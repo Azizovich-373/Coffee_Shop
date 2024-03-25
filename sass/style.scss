@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.icon_box {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+
+    &::before,
+    &::after {
+        content: "";
+        width: 60px;
+        height: 1px;
+        background-color: white;
+    }
+}
+.icon-box {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+
+    &::before,
+    &::after {
+        content: "";
+        width: 60px;
+        height: 1px;
+        background-color: black;
+    }
+}
+
+//Modules
+@import "./modules/promo";
+@import "./modules/header";
+@import "./modules/about";
+@import "./modules/our";
+@import "./modules/footer";
+
+
+//Pages
+@import "./pages/catalog";
+@import "./pages/product";
